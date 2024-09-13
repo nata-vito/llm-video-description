@@ -13,6 +13,15 @@ cd llm-video-description
 sudo apt update && sudo apt install ffmpeg
 pip install -r requirements.txt
 
+# ollama serve
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Install llama3.1 
+ollama pull llama3.1
+
+# Run llama3.1
+ollama serve
+
 # Run the script
 python source/scripts/audio_to_text.py
 ```
@@ -25,6 +34,19 @@ python source/scripts/audio_to_text.py
 ```bash
 # Run the script
 python source/scripts/audio_to_text.py
+```
+
+## How to fix it:
+
+To:
+```bash
+bind: address already in use
+```
+
+Do:
+```bash
+systemctl stop ollama
+ollama serve
 ```
 
 ## TODO:
