@@ -18,13 +18,16 @@ python source/scripts/audio_to_text.py
 ```
 
 ## How to Use:
-1 - Import your file to: llm-video-description/audio/
-
-1.1 - Change the name to transcription.mp3
-
-2 - Run the commands in the root folder:
+- 1 - Import your file to: llm-video-description/audio/
+- 1.1 - Change the name to transcription.mp3
+- 2 - Run the commands in the root folder:
 
 ```bash
 # Run the script
 python source/scripts/audio_to_text.py
 ```
+
+## TODO:
+- LMM Speech to text: DONE
+- LLM to generate description: WiP
+- Easy to use: ---

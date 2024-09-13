@@ -2,10 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.mp3
 # C extensions
 *.so
-
+./source/output/transcription.txt
 # Distribution / packaging
 .Python
 build/
