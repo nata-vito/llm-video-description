@@ -27,8 +27,8 @@ python source/scripts/audio_to_text.py
 ```
 
 ## How to Use:
-- 1 - Import your file to: llm-video-description/audio/
-- 1.1 - Change the name to transcription.mp3
+- 1 - Create the folder llm-video-description/source/audio/, llm-video-description/source/output/ and import your audio file to this new path
+- 1.1 - Change the audio file name to transcription.mp3
 - 2 - Run the commands in the root folder:
 
 ```bash
@@ -51,5 +51,5 @@ ollama serve
 
 ## TODO:
 - LMM Speech to text: DONE
-- LLM to generate description: WiP
+- LLM to generate description: DONE
 - Easy to use: ---

@@ -1,3 +1,6 @@
 git+https://github.com/openai/whisper.git 
 setuptools-rust
 langchain-ollama
+ollama
+langchain
+llama_index
